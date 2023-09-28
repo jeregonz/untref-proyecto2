@@ -3,7 +3,11 @@ body{
     background-color: #ebebeb;
     color: #0c2f39;
 }
-
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 header a {
     display: contents;
     /* text-decoration: none; */
