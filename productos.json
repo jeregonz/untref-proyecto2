@@ -1,0 +1,66 @@
+[
+    {
+        "nombre": "Smartphone Galaxy S21",
+        "descripcion1": "Potente smartphone Android",
+        "descripcion2": "El smartphone Galaxy S21 es un dispositivo Android de alta gama con una pantalla OLED de 6.2 pulgadas, procesador Snapdragon 888 y una cámara de 108 MP. Ofrece un rendimiento excepcional y una experiencia de usuario fluida. Este dispositivo es perfecto para aquellos que buscan lo mejor en tecnología móvil.",
+        "imagen": "img/galaxys21.webp",
+        "precio": 899.99,
+        "puntuacion": "★★★★★"
+    },
+    {
+        "nombre": "Tablet iPad Pro",
+        "descripcion1": "Tablet profesional de Apple",
+        "descripcion2": "El iPad Pro es una tablet de Apple diseñada para usuarios profesionales. Cuenta con una pantalla Liquid Retina de 11 pulgadas, procesador M1 y compatibilidad con el Apple Pencil y el Magic Keyboard. Experimenta la versatilidad y el poder de la computación portátil en un dispositivo ligero y elegante.",
+        "imagen": "img/tablet_ipad_pro.webp",
+        "precio": 1099.99,
+        "puntuacion": "★★★★★"
+    },
+    {
+        "nombre": "Portátil Dell XPS 13",
+        "descripcion1": "Laptop ultradelgada y potente",
+        "descripcion2": "La laptop Dell XPS 13 es conocida por su diseño ultradelgado y su potencia. Cuenta con una pantalla InfinityEdge de 13.4 pulgadas, procesador Intel Core i7 y una batería de larga duración. Ya sea para trabajo o entretenimiento, este portátil te proporcionará un rendimiento excepcional.",
+        "imagen": "img/dell_xps_13.webp",
+        "precio": 1299.99,
+        "puntuacion": "★★★★"
+    },
+    {
+        "nombre": "Televisor OLED LG CX",
+        "descripcion1": "Televisor 4K con tecnología OLED",
+        "descripcion2": "El televisor LG CX ofrece una experiencia visual excepcional con su pantalla OLED de 55 pulgadas y resolución 4K. Además, cuenta con compatibilidad con HDR y una interfaz inteligente que te permite acceder a tus contenidos favoritos de forma sencilla. Disfruta de imágenes nítidas y colores vibrantes en cada momento de visualización.",
+        "imagen": "img/televisor_oled_lg_cx.webp",
+        "precio": 1499.99,
+        "puntuacion": "★★★★"
+    },
+    {
+        "nombre": "Cámara Sony Alpha A7 III",
+        "descripcion1": "Cámara sin espejo de alta calidad",
+        "descripcion2": "La cámara Sony Alpha A7 III es una opción popular entre los fotógrafos gracias a su calidad de imagen excepcional y su capacidad de grabación de video 4K. Incluye un sensor full-frame y estabilización de imagen para capturar momentos precisos y emocionantes. Eleva tu fotografía al siguiente nivel con esta cámara avanzada.",
+        "imagen": "img/sony_alpha_a7.webp",
+        "precio": 1999.99,
+        "puntuacion": "★★★★"
+    },
+    {
+        "nombre": "Auriculares Bose QuietComfort 45",
+        "descripcion1": "Auriculares con cancelación de ruido",
+        "descripcion2": "Los auriculares Bose QuietComfort 45 ofrecen una experiencia auditiva inigualable con cancelación de ruido de primer nivel. Son ideales para viajes y cuentan con una batería de larga duración que te permite disfrutar de música sin interrupciones durante horas. Sumérgete en un mundo de sonidos enriquecidos y claros.",
+        "imagen": "img/auri_bose_quietcomfort_45.webp",
+        "precio": 299.99,
+        "puntuacion": "★★★★"
+    },
+    {
+        "nombre": "Consola Xbox Series X",
+        "descripcion1": "Consola de videojuegos de próxima generación",
+        "descripcion2": "La consola Xbox Series X ofrece un rendimiento de juego de próxima generación con gráficos 4K y una amplia biblioteca de juegos. Incluye un disco de estado sólido para tiempos de carga más rápidos y una experiencia de juego fluida. Descubre un mundo de emocionantes aventuras y competencia en línea.",
+        "imagen": "img/xbox_series_x.webp",
+        "precio": 499.99,
+        "puntuacion": "★★★★★"
+    },
+    {
+        "nombre": "Smartwatch Apple Watch Series 6",
+        "descripcion1": "Reloj inteligente de Apple",
+        "descripcion2": "El smartwatch Apple Watch Series 6 es un dispositivo versátil que monitoriza la salud y ofrece una amplia gama de aplicaciones. Incluye un sensor de oxígeno en sangre y una pantalla siempre activa que te permite estar conectado y saludable. Descubre un nuevo nivel de bienestar y productividad.",
+        "imagen": "img/apple_watch_series_6.webp",
+        "precio": 399.99,
+        "puntuacion": "★★★★"
+    }
+]

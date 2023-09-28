@@ -1,0 +1,80 @@
+body{
+    /* background-color: #647789; */
+    background-color: #ebebeb;
+    color: #0c2f39;
+}
+
+header a {
+    display: contents;
+    /* text-decoration: none; */
+    color: inherit;
+}
+
+header.container{
+    /* background-color: #ffc93c; */
+    background-color: #fff159;
+    max-width: revert;
+}
+header .row.align-items-center{
+    padding: inherit;
+}
+h2{
+    margin: 1%;
+    text-align: center;
+}
+
+#lista{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.card{
+    margin-block: 1%;
+    border: 3px solid black;
+    border-radius: 4%;
+    color: #0c2f39;
+}
+.card.producto{
+    cursor: pointer;
+}
+.card img{
+    max-width: 80%;
+    margin-inline: auto;
+    /* max-height: 80%; */
+    margin-top: 2%;
+    border-radius: 5%;
+    margin-block: 4%;
+}
+.card.producto:hover{
+    background-color: #ffc93c;
+    border-color: #1e758d;
+    box-shadow: 0 10px 10px 0 rgb(0 0 0 / 85%), 0 2px 5px 0 rgb(0 0 0 / 39%);
+}
+.card.producto:active{
+    background-color: #fff159;
+    border-color: #ffc93c;
+}
+.card li{
+    background-color: #ffffff00;
+}
+.card-body{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.imagen{
+    display: flex;
+    height: 100%;
+    align-items: center;
+}
+
+.btn{
+    border-color: #1e758d;
+    color: #1e758d;
+}
+.btn:hover, .btn:active{
+    color: #ffc93c !important;
+    background-color: #1e758d !important;
+    border-color: #1e758d !important;
+}
