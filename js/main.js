@@ -15,13 +15,34 @@ function renderLista(productos){
             </div>
             <ul class="list-group list-group-flush" data-number="${i}">
                 <li class="list-group-item" data-number="${i}">$${productos[i].precio}</li>
-                <li class="list-group-item" data-number="${i}">${productos[i].puntuacion}</li>
+                <li class="list-group-item estrellas" data-number="${i}" data-estrellas="${productos[i].puntuacion}"></li>
             </ul>
         </div>
         `;
     }
-
+    dibujaEstrellas();
     crearLista();
+}
+
+function dibujaEstrellas(){
+    let nodos =  [...document.querySelectorAll(".estrellas")];
+
+    nodos.forEach(nodo => {
+        let cant = nodo.dataset.estrellas.length;
+        if (cant == 5){
+            for (let i = 0; i < 5; i++) {
+                nodo.innerText+="⭐";
+            }
+        }
+        else{
+            for (let i = 0; i < cant; i++) {
+                nodo.innerText+="⭐"
+            }
+            for (let i = 0; i < 5-cant; i++) {
+                nodo.innerText+="★"
+            }
+        }
+    });
 }
 
 let productos;
